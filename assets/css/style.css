@@ -1,0 +1,173 @@
+/* Estilos generales */
+body{
+    color: #4d4d4f;
+    font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Raleway', sans-serif;
+}
+
+p, li, a, small {
+    font-family: 'Lato', sans-serif;
+}
+
+/* Tamaño textos */
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2.25em;
+}
+
+h3 {
+    font-size: 1.75em;
+}
+
+p{
+    font-size: 1.5rem;
+}
+
+/* Navbar */
+
+.navbar-academia {
+    background-color: #FF658D;
+    color: hsla(0, 100%, 100%, 0.52);
+}
+
+.icon-bar {
+    background-color: #ffffff;
+}
+
+.navbar-brand img {
+    max-width: 200px;
+}
+.navbar-brand{
+    padding: 10px 15px 0 15px;
+}
+.navbar-nav > li > a{
+    color: #fff;
+    text-shadow: none;
+}
+.nav > li > a:hover {
+    background-color: initial;
+    color: hsla(0, 0%, 100%, .5);
+}
+.nav > li > a:focus {
+    background-color: #ffffff;
+    color: #FF658D;
+}
+
+.navbar {
+    margin-bottom: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+/* Header */
+.header {
+    text-align: center;
+    height: 700px;
+    padding-top: 250px;
+    background-color: #f3f3f3;
+    background-image: url('../img/sitio/pizza.jpg');
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+}
+.header:after{
+    background-color: rgba(255, 0, 0, 0.5);
+}
+.header h1 {
+    color: #ffffff;
+    font-size: 5em;
+    font-weight: 900;
+    max-width: 1200px;
+    margin: auto;
+    padding-bottom: 80px;
+}
+.header h2 {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 2.5em;
+}
+/* cursos */
+.cursos h2{
+    text-align: center;
+    padding: 60px 0 30px 0;
+}
+.thumbnail {
+    border: 0;
+    -webkit-box-shadow: initial;
+    padding: 0;
+}
+.caption{
+    padding: 15px 0 20px 10px;
+}
+.svg-inline--fa  {
+    color: #888888;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.caption h4{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2em;
+    font-size: 1.7em;
+    padding-bottom: 10px;
+}
+
+.card {
+    position: relative;
+    display: block;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,.11);
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.card.with-media .date {
+    display: block;
+    padding: 20px 0 8px 20px;
+    font-size: 1.2em;
+    position: absolute;
+    margin-top: -10px;
+    width: 100%;
+}
+.card.with-media .title {
+    display: inline-block;
+    width: 100%;
+    background-color: #fff;
+    font-size: 1.2em;
+    padding: 25px 20px 10px 20px;
+    text-transform: uppercase;
+    text-align: left;
+    color: #4d4d4f;
+    margin-top: 30px;
+}
+.card.with-media .title h4{
+    display: inline-block;
+}
+.datos__inner p{
+    display: inline-block;
+    font-size: 1.1em;
+    padding-left: 10px;
+}
+.datos{
+    padding-left: 20px;
+    height: 240px;
+}
+.tag{
+    color: #cc1924;
+    display: inline-block;
+    border: 1px solid #cc1924;
+    padding: 4px 10px 4px 10px;
+}
+.destacados h2{
+    color: #707070;
+    text-align: center;
+    margin: 20px;
+}
